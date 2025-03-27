@@ -7,7 +7,7 @@ import time
 from pydub import AudioSegment
 
 # 匯入所有書籍的單字庫
-from anna_12_4_S2 import word_data
+from anna_12_4_S2 import word_data as anna_12_4_S2
 # 書籍選擇
 book_options = {
     "Your English Five a Day #12.4 S2": anna_12_4_S2,
