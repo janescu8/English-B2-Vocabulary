@@ -7,10 +7,10 @@ import time
 from pydub import AudioSegment
 
 # 匯入所有書籍的單字庫
-from #12_4_S2 import word_data
+from Anna_12_4_S2 import word_data
 # 書籍選擇
 book_options = {
-    "Your English Five a Day #12.4 S2": #12_4_S2,
+    "Your English Five a Day #12.4 S2": Anna_12_4_S2,
 }
 
 st.title("📚 英文單字測試遊戲")
