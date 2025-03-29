@@ -8,9 +8,11 @@ from pydub import AudioSegment
 
 # 匯入所有書籍的單字庫
 from anna_12_4_S2 import word_data as anna_12_4_S2
+from the_automatic_toaster import word_data as the_automatic_toaster
 # 書籍選擇
 book_options = {
     "Your English Five a Day #12.4 S2": anna_12_4_S2,
+    "The best invention since sliced bread? - Rachel Yang | the automatic toaster": the_automatic_toaster,
 }
 
 st.title("📚 英文單字測試遊戲")
